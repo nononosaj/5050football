@@ -1,0 +1,188 @@
+
+.jumbo1 {
+	background: url("../images/field.jpeg") center center no-repeat;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.jumbo1 h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 200px;
+	line-height: 1.2;
+	margin-bottom: 75px;
+}
+
+.jumbo1 p {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-weight: 500;
+	letter-spacing: 8px;
+	font-size: 16px;
+}
+
+.btnTop {
+	background: black;
+	color: white;
+	padding: 10px 40px;
+font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	border-radius: 0;
+}
+
+.btnTop:hover {
+	background: #117bff;
+	color: white;
+	border-radius: 0;
+}
+
+.navbar-custom {
+	padding: 0;
+	margin: 0;
+	background: black;
+	border-radius: 0;
+}
+
+.nav a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	font-size: 16px;
+}
+
+.navbar-toggle {
+	border-color: white;
+	background: white;
+}
+
+.icon-bar {
+	color: black;
+	border-color: black;
+	background: black;
+}
+
+.nav a {
+
+}
+
+.nav-links:hover {
+	background: #117bff !important;
+}
+
+
+
+
+.supporting-col {
+	max-width: 90%;
+	margin: 50px auto 50px auto;
+}
+
+.supporting-col img {
+	height: 128px;
+	width: auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin: 100px auto 50px auto;
+}
+
+.cloudText {
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 50px;
+}
+
+.cloudText p {
+	font-weight: 100;
+	font-size: 15px;
+}
+
+.cloudText h3 {
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+
+.jumbo2 {
+	height: 600px;
+	background: url("../images/field.jpeg") center center no-repeat;
+	background-size: cover;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbo2 h3 {
+font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-right: 10px;
+	font-size: 26px;
+	margin-top: 175px;
+	margin-bottom: 15px;
+}
+
+.jumbo2 p {
+	margin-right: 10px;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.btnBottom {
+	background: black;
+	color: white;
+	padding: 10px 40px;
+font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	border-radius: 0;
+	margin-right: 10px;
+}
+
+.btnBottom:hover {
+	background: #117bff;
+	color: white;
+	border-radius: 0;
+}
+
+
+
+
+.site-footer{
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    font-size: 20px;
+		font-family: 'Montserrat', sans-serif;
+  }
+  #footer{
+    width: auto;
+    height: 20px;
+    text-align: center;
+    min-height: 100%;
+    padding-bottom: 2px;
+  }
+
+
+/*=============
+MEDIA QUERIES
+==============*/
+
+@media (min-width:500px) {
+	.jumbo1 h1 {
+		font-size: 80px;
+		line-height: 100px;
+	}
+}
+
+@media (min-width:850px) {
+	.jumbo1 h1 {
+		font-size: 120px;
+		margin-top: 190px;
+	}
+}
